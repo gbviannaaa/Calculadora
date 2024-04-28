@@ -1,0 +1,35 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.display {
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.key {
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.key:hover {
+    background-color: #999;
+}
